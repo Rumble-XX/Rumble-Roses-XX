@@ -1,2 +1,2 @@
-# Rumble-Roses-XX
-Patches for Rumble Roses XX 
+# Rumble Roses XX
+Patches use in Xenia Canary
