@@ -18,14 +18,24 @@ hash = "2E2AEA278FC17517" # default.xex
         value = 0x00
 
 [[patch]]
-    name = "Bloom Slight Off"
+    name = "Bloom Slight Off 1"
     author = "Rumble XX"
+    desc = "Enable Bloom Slight off 1+2 will disable bloom"
    	is_enabled = false
 
     [[patch.be8]]
         address = 0x8226c12f
         value = 0x00
-		
+
+[[patch]]
+    name = "Bloom Slight Off 2"
+    author = "Rumble XX"
+   	is_enabled = false
+
+    [[patch.be8]]
+        address = 0x8226c153
+        value = 0x00
+
 [[patch]]
     name = "Remove Background Crowds"
     author = "Rumble XX"
