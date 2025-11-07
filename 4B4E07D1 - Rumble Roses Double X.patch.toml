@@ -5,7 +5,7 @@ hash = "2E2AEA278FC17517" # default.xex
 
 [[patch]]
     name = "Blur Off"
-    desc = "Remove blur during the match, blur remains on K-Moves, H-Moves, ect and Photo Shoot only on Locker Room"
+    desc = "Removes blur from the game"
     author = "Rumble XX"
     is_enabled = false
 
@@ -16,6 +16,10 @@ hash = "2E2AEA278FC17517" # default.xex
     [[patch.be8]]
         address = 0x8226c0a7
         value = 0x00
+
+	[[patch.be32]]
+        address = 0x8226de12
+        value = 0x00000000
 
 [[patch]]
     name = "Bloom Slight Off 1"
