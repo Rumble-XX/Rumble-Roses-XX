@@ -48,6 +48,24 @@ hash = "2E2AEA278FC17517" # default.xex
     [[patch.be8]]
         address = 0x82498daf
         value = 0x00
+
+[[patch]]
+    name = "Remove Weapon Icons"
+    author = "Rumble XX"
+    is_enabled = false
+
+    [[patch.be8]]
+        address = 0x8228a7ef
+        value = 0x00
+		
+[[patch]]
+    name = "Remove Queen Match Banner"
+    author = "Rumble XX"
+    is_enabled = false
+
+    [[patch.be8]]
+        address = 0x822a5b87
+        value = 0x00
 		
 [[patch]]
     name = "Change Ratio to 21:9"
