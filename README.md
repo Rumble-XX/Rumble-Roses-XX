@@ -1,9 +1,14 @@
 # Rumble Roses XX
 
-Patches use in Xenia Canary
+Patch only works in the NA and JP ver of the game.
 
-You can use the XEX file if your not using the patch function on Xenia Canary.
+Patch list
+1. Disable Blur (on by default)
+2. Bloom Slight Off 1
+3. Bloom Slight Off 2 (on by default)
+4. Remove Background Crowds
+5. Remove Weapon Icons (on by default)
+6. Remove Queen Match Banner (on by default)
+7. Change Ratio to 21"9
 
 ===============================
-
-Make sure to backup your XEX file before using this XEX.
