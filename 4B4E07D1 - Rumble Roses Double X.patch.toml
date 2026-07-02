@@ -7,7 +7,7 @@ hash = "2E2AEA278FC17517" # default.xex
     name = "Blur Off"
     desc = "Removes blur from the game"
     author = "Rumble XX"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]]
         address = 0x8226bf23
@@ -34,7 +34,7 @@ hash = "2E2AEA278FC17517" # default.xex
 [[patch]]
     name = "Bloom Slight Off 2"
     author = "Rumble XX"
-   	is_enabled = false
+   	is_enabled = true
 
     [[patch.be8]]
         address = 0x8226c153
@@ -52,7 +52,7 @@ hash = "2E2AEA278FC17517" # default.xex
 [[patch]]
     name = "Remove Weapon Icons"
     author = "Rumble XX"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]]
         address = 0x8228a7ef
@@ -61,7 +61,7 @@ hash = "2E2AEA278FC17517" # default.xex
 [[patch]]
     name = "Remove Queen Match Banner"
     author = "Rumble XX"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]]
         address = 0x822a5b87
